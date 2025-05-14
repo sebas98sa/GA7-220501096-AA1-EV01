@@ -1,0 +1,338 @@
+[2:30 p.m., 1/5/2025] Sebastian Sánchez: <!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herramientas de Desarrollo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f9;
+      color: #333;
+    }
+
+    .container {
+      …
+      [2:30 p.m., 1/5/2025] Sebastian Sánchez: herramientas-desarrollo.html
+    [2:37 p.m., 1/5/2025] Sebastian Sánchez: <!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas de Versionamiento</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f9;
+      color: #333;
+    }
+
+      .container {
+        max-width: 1100px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color: #2d3748;
+      }
+
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #2d3748;
+        border-bottom: 2px solid #e2e8f0;
+        padding-bottom: 0.5rem;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+        color: #4a5568;
+      }
+
+      p {
+        font-size: 1.1rem;
+        color: #4a5568;
+        margin-bottom: 1rem;
+      }
+
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin-left: 0;
+      }
+
+      ul li {
+        margin-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        position: relative;
+      }
+
+      ul li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #48bb78;
+      }
+
+      /* Tool Card Styles */
+      .tool-card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        margin-bottom: 1.5rem;
+        padding: 1.5rem;
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+      }
+
+      .tool-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .tool-card h3 {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .tool-icon {
+        font-size: 1.5rem;
+        color: #4299e1;
+      }
+
+      /* Table Styles */
+      .comparison-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .comparison-table th,
+      .comparison-table td {
+        padding: 0.75rem;
+        text-align: left;
+        border-bottom: 1px solid #e2e8f0;
+      }
+
+      .comparison-table th {
+        background-color: #edf2f7;
+        font-weight: 600;
+        color: #2d3748;
+      }
+
+      .comparison-table tr:last-child td {
+        border-bottom: none;
+      }
+
+      .comparison-table tr:nth-child(even) {
+        background-color: #f7fafc;
+      }
+
+      .comparison-table tr:hover {
+        background-color: #ebf4ff;
+      }
+
+      .conclusion {
+        font-style: italic;
+        color: #718096;
+        text-align: center;
+        margin-top: 2rem;
+      }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <h1>Herramientas de Versionamiento</h1>
+  <p>
+    Las herramientas de versionamiento son esenciales en el desarrollo de software para gestionar los cambios en el código a lo largo del tiempo,
+    permitiendo la colaboración eficiente entre desarrolladores y facilitando la recuperación de versiones anteriores.
+  </p>
+
+  <section class="tool-section">
+    <div class="tool-card">
+      <h3><i class="fas fa-code-branch tool-icon"></i> Git</h3>
+      <p>
+        Git es un sistema de control de versiones distribuido, ampliamente utilizado en el desarrollo de software. Fue creado por Linus Torvalds
+        y es conocido por su velocidad, eficiencia y capacidad para manejar proyectos de cualquier tamaño.
+      </p>
+      <ul>
+        <li><strong>Control de Versiones Distribuido:</strong> Cada desarrollador tiene una copia completa del historial del repositorio, lo que
+          permite trabajar sin conexión y realizar operaciones rápidas.
+        </li>
+        <li><strong>Ramas y Fusiones:</strong> Git facilita la creación de ramas para desarrollar nuevas funcionalidades o corregir errores de
+          forma aislada, y luego fusionar esos cambios de nuevo en la rama principal.
+        </li>
+        <li><strong>Seguimiento de Cambios:</strong> Git registra cada cambio realizado en los archivos, permitiendo volver a versiones
+          anteriores y comparar diferencias.
+        </li>
+        <li><strong>Colaboración:</strong> Git permite a varios desarrolladores trabajar en el mismo proyecto simultáneamente, gestionando
+          conflictos y facilitando la integración de cambios.
+        </li>
+        <li><strong>Rendimiento:</strong> Git está diseñado para ser rápido y eficiente, incluso con grandes repositorios.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="tool-section">
+    <div class="tool-card">
+      <h3><i class="fab fa-github tool-icon"></i> GitHub</h3>
+      <p>
+        GitHub es una plataforma de alojamiento de repositorios Git basada en la web. Proporciona una interfaz gráfica y funcionalidades
+        adicionales para facilitar la colaboración y gestión de proyectos.
+      </p>
+      <ul>
+        <li><strong>Alojamiento de Repositorios:</strong> Permite almacenar repositorios Git de forma remota, facilitando el acceso y la
+          colaboración.
+        </li>
+        <li><strong>Colaboración:</strong> Ofrece herramientas para la revisión de código (pull requests), seguimiento de problemas (issues),
+          gestión de proyectos (tableros Kanban) y comunicación (comentarios).
+        </li>
+        <li><strong>Control de Acceso:</strong> Permite gestionar los permisos de acceso a los repositorios, controlando quién puede ver,
+          editar o administrar el código.
+        </li>
+        <li><strong>Integraciones:</strong> Se integra con numerosas herramientas y servicios de desarrollo, como plataformas de integración
+          continua (CI/CD) y herramientas de gestión de proyectos.
+        </li>
+        <li><strong>Comunidad:</strong> Es una de las mayores comunidades de desarrolladores del mundo, facilitando el aprendizaje, la
+          colaboración y el descubrimiento de proyectos de código abierto.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="tool-section">
+    <div class="tool-card">
+      <h3><i class="fab fa-gitlab tool-icon"></i> GitLab</h3>
+      <p>
+        GitLab es una plataforma similar a GitHub, que ofrece alojamiento de repositorios Git y funcionalidades de colaboración. Se diferencia por
+        ofrecer opciones de auto-hospedaje, lo que permite a las organizaciones tener un mayor control sobre sus datos y su infraestructura.
+      </p>
+      <ul>
+        <li><strong>Alojamiento de Repositorios:</strong> Proporciona alojamiento de repositorios Git, tanto en la nube como en servidores
+          propios.
+        </li>
+        <li><strong>CI/CD Integrado:</strong> Ofrece herramientas de integración continua y entrega continua (CI/CD) integradas, lo que facilita
+          la automatización de las pruebas, la construcción y el despliegue de software.
+        </li>
+        <li><strong>Colaboración:</strong> Incluye funcionalidades para la revisión de código (merge requests), seguimiento de problemas
+          (issues), gestión de proyectos (tableros) y comunicación.
+        </li>
+        <li><strong>Seguridad:</strong> Ofrece herramientas de análisis de seguridad estático y dinámico para identificar vulnerabilidades en el
+          código.
+        </li>
+        <li><strong>Auto-Hospedaje:</strong> Permite a las organizaciones instalar y gestionar GitLab en sus propios servidores, lo que
+          proporciona un mayor control y seguridad.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="tool-section">
+    <div class="tool-card">
+      <h3><i class="fab fa-bitbucket tool-icon"></i> Bitbucket</h3>
+      <p>
+        Bitbucket es otra plataforma de alojamiento de repositorios Git, desarrollada por Atlassian. Se integra estrechamente con otras
+        herramientas de Atlassian, como Jira y Trello, lo que la hace popular entre los equipos que utilizan estas herramientas.
+      </p>
+      <ul>
+        <li><strong>Alojamiento de Repositorios:</strong> Ofrece alojamiento de repositorios Git, tanto en la nube como en servidores propios.</li>
+        <li><strong>Colaboración:</strong> Incluye funcionalidades para la revisión de código (pull requests), comentarios en línea y
+          discusiones.
+        </li>
+        <li><strong>Integración con Atlassian:</strong> Se integra estrechamente con Jira (herramienta de seguimiento de problemas) y Trello
+          (herramienta de gestión de proyectos), lo que facilita la planificación y el seguimiento del desarrollo.
+        </li>
+        <li><strong>Control de Acceso:</strong> Permite gestionar los permisos de acceso a los repositorios, controlando quién puede ver,
+          editar o administrar el código.
+        </li>
+        <li><strong>CI/CD:</strong> Ofrece funcionalidades de integración continua y entrega continua (CI/CD) para automatizar las pruebas y el
+          despliegue.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <h2>Tabla Comparativa</h2>
+  <table class="comparison-table">
+    <thead>
+    <tr>
+      <th>Característica</th>
+      <th>Git</th>
+      <th>GitHub</th>
+      <th>GitLab</th>
+      <th>Bitbucket</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Tipo</td>
+      <td>Sistema de Control de Versiones</td>
+      <td>Plataforma de Alojamiento Git</td>
+      <td>Plataforma de Alojamiento Git</td>
+      <td>Plataforma de Alojamiento Git</td>
+    </tr>
+    <tr>
+      <td>Alojamiento</td>
+      <td>Local</td>
+      <td>Remoto</td>
+      <td>Remoto (Opciones de Auto-Hospedaje)</td>
+      <td>Remoto (Opciones de Auto-Hospedaje)</td>
+    </tr>
+    <tr>
+      <td>Enfoque Principal</td>
+      <td>Control de Versiones</td>
+      <td>Colaboración, Gestión de Proyectos</td>
+      <td>CI/CD, DevOps</td>
+      <td>Integración con Atlassian</td>
+    </tr>
+    <tr>
+      <td>Comunidad</td>
+      <td>Amplia</td>
+      <td>Muy Grande</td>
+      <td>Grande</td>
+      <td>Mediana</td>
+    </tr>
+    <tr>
+      <td>Integraciones</td>
+      <td>Variadas (a través de herramientas)</td>
+      <td>Muchas</td>
+      <td>Muchas, CI/CD Integrado</td>
+      <td>Atlassian (Jira, Trello)</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <p class="conclusion">
+    La elección de la herramienta de versionamiento adecuada depende de las necesidades específicas del proyecto, el tamaño del equipo y las
+    preferencias de los desarrolladores. Git es la base de la mayoría de estas herramientas y es esencial para el desarrollo de software moderno.
+  </p>
+</div>
+</body>
+
+</html>
